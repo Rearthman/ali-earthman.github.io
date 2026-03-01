@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Notes"
+    url: /notes/
+  - title: "Chat"
+    url: /chat/
+  - title: "Archive"
+    url: /archive/
+  - title: "About"
+    url: /about/
