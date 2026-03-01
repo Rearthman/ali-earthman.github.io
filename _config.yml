@@ -1,0 +1,83 @@
+title: "Ali Earthman"
+name: "Ali Earthman"
+description: "Notes, essays, and articles by Ali Earthman."
+url: "https://YOUR_GITHUB_USERNAME.github.io"  # ← update to your site URL or custom domain
+baseurl: ""  # keep empty for user/organization sites; for project sites use "/repo-name"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Author profile
+author:
+  name: "Ali Earthman"
+  avatar: "/assets/images/example-thumb.jpg" # optional small profile image
+  bio: "Writing about faith, life, and thoughtful practice."
+  location: "—"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:you@example.com"  # update
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 6
+paginate_path: "/page:num/"
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Collections (default posts)
+collections:
+  posts:
+    output: true
+
+# Defaults for posts/pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation (loaded from _data)
+include: ["_pages", "_data", "_includes"]
+nav:
+  - name: Home
+    url: /
+  - name: Notes
+    url: /notes/
+  - name: Chat
+    url: /chat/
+  - name: Archive
+    url: /archive/
+  - name: About
+    url: /about/
+
+# Social / feeds
+feed:
+  path: feed.xml
+
+# Analytics (optional)
+# google_analytics: "G-XXXXXXXXXX"
+
+# MailerLite (used in include partial)
+mailerlite:
+  embed_code: ""  # paste form HTML snippet here (optional global)
