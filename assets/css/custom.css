@@ -119,3 +119,13 @@ button, .btn {
 button:hover, .btn:hover {
   background: var(--ae-accent-dark);
 }
+
+/* ----------------------------
+   Custom Masthead Background
+----------------------------- */
+
+.masthead {
+  background-image: url('/assets/images/banner.png');
+  background-size: cover;
+  background-position: center;
+}
