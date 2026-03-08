@@ -133,5 +133,5 @@ button:hover, .btn:hover {
 }
 
 .masthead__inner-wrap {
-  background: transparent;
+  background: transparent !important;
 }
