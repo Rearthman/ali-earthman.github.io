@@ -128,4 +128,10 @@ button:hover, .btn:hover {
   background-image: url('/assets/images/banner.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  min-height: 220px;
+}
+
+.masthead__inner-wrap {
+  background: transparent;
 }
