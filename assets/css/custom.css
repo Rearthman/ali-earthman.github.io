@@ -13,7 +13,7 @@
    Base Styling
 ----------------------------- */
 body {
-  background: var(--ae-bg);
+  background: pink !important;
   color: var(--ae-text);
   font-size: 18px;
   line-height: 1.7;
