@@ -1,1 +1,121 @@
+/* ----------------------------
+   Global Theme Colors
+----------------------------- */
+:root {
+  --ae-bg: #faf7f2;         /* soft warm neutral */
+  --ae-text: #2e2a27;       /* deep warm brown */
+  --ae-accent: #d290ff;     /* soft lavender */
+  --ae-accent-dark: #b06ed9;
+  --ae-border: #e6e0d9;
+}
 
+/* ----------------------------
+   Base Styling
+----------------------------- */
+body {
+  background: var(--ae-bg);
+  color: var(--ae-text);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Links */
+a {
+  color: var(--ae-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ae-accent-dark);
+}
+
+/* ----------------------------
+   Header / Navigation
+----------------------------- */
+
+.masthead {
+  background: white;
+  border-bottom: 1px solid var(--ae-border);
+}
+
+.masthead__menu-item a {
+  font-weight: 600;
+}
+
+/* ----------------------------
+   Page & Post Content Styling
+----------------------------- */
+
+.page__content,
+.post__content {
+  background: white;
+  padding: 2.2rem;
+  border-radius: 12px;
+  border: 1px solid var(--ae-border);
+  margin-top: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: var(--ae-text);
+}
+
+/* ----------------------------
+   Homepage Post List Cards
+----------------------------- */
+
+.archive__item {
+  background: white;
+  border: 1px solid var(--ae-border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.4rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.archive__item:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+/* Title styling in post lists */
+.archive__item-title a {
+  color: var(--ae-text);
+  font-weight: 700;
+}
+
+/* ----------------------------
+   Footer
+----------------------------- */
+
+.page__footer {
+  background: none;
+  color: var(--ae-text);
+  border-top: 1px solid var(--ae-border);
+}
+
+/* ----------------------------
+   Forms (for Chat page)
+----------------------------- */
+
+input, textarea {
+  border: 1px solid var(--ae-border);
+  border-radius: 6px;
+  padding: 0.6rem;
+  width: 100%;
+}
+
+button, .btn {
+  background: var(--ae-accent);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: var(--ae-accent-dark);
+}
