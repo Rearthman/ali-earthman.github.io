@@ -124,14 +124,18 @@ button:hover, .btn:hover {
    Custom Masthead Background
 ----------------------------- */
 
+
 .masthead {
   background-image: url('/assets/images/banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 220px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+/* Remove white overlay */
 .masthead__inner-wrap {
   background: transparent !important;
 }
