@@ -1,7 +1,7 @@
 title: "Ali Earthman"
 name: "Ali Earthman"
 description: "Notes, essays, and articles by Ali Earthman."
-url: "https://YOUR_GITHUB_USERNAME.github.io"  # ← update to your site URL or custom domain
+url: "https://rearthman.github.io/ali-earthman.github.io/"  # ← update to your site URL or custom domain
 baseurl: ""  # keep empty for user/organization sites; for project sites use "/repo-name"
 
 # Theme
@@ -16,7 +16,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:you@example.com"  # update
+      url: "mailto:ryan.earthman@gmail.com"  # update
 
 # Build settings
 markdown: kramdown
