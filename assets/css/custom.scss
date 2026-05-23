@@ -47,9 +47,10 @@ a:hover {
    Page & Post Content Styling
 ----------------------------- */
 
+
 .page__content,
 .post__content {
-  background: white;
+  background: var(--ae-bg);
   padding: 2.2rem;
   border-radius: 12px;
   border: 1px solid var(--ae-border);
