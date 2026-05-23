@@ -1,8 +1,8 @@
 title: "Ali Earthman"
 name: "Ali Earthman"
 description: "Notes, essays, and articles by Ali Earthman."
-url: "https://rearthman.github.io/ali-earthman.github.io/"  # ← update to your site URL or custom domain
-baseurl: ""  # keep empty for user/organization sites; for project sites use "/repo-name"
+url: "https://rearthman.github.io"  # ← update to your site URL or custom domain
+baseurl: "/ali-earthman.github.io"  # keep empty for user/organization sites; for project sites use "/repo-name"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
