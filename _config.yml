@@ -6,6 +6,7 @@ baseurl: "/ali-earthman.github.io"  # keep empty for user/organization sites; fo
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
 
 # Author profile
 author:
