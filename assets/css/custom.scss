@@ -35,7 +35,7 @@ a:hover {
 ----------------------------- */
 
 .masthead {
-  background: white;
+  background: var(--ae-bg);
   border-bottom: 1px solid var(--ae-border);
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 ----------------------------- */
 
 .archive__item {
-  background: white;
+  background: var(--ae-bg);
   border: 1px solid var(--ae-border);
   border-radius: 12px;
   padding: 1.2rem;
